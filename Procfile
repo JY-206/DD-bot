@@ -1,1 +1,1 @@
-npm i && npm i ffmpeg && npm start 
+Work : npm i && npm i ffmpeg && npm start 
