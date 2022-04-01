@@ -1177,8 +1177,8 @@ break
    url = await yts(value);
    link = url.all 
    if(!link) return ('Error')
- // img = await getBuffer(link[0].image)
- img = await (await fetch('https://i.ibb.co/CnHx2Fr/fgmy.jpg')).buffer()
+  img = await getBuffer(link[0].image)
+ // img = await (await fetch('https://i.ibb.co/CnHx2Fr/fgmy.jpg')).buffer()
    music = `≡ *PLAY VIDEO*
    
 ▢ *RESULTADOS*
