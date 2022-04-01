@@ -1,4 +1,1 @@
-             
-
-
-       npm i ffmpeg && npm i && npm start
+npm i && npm i ffmpeg && npm start 
