@@ -542,9 +542,9 @@ case 'developer':
 *≡ OWNER*
 
 ▢ Instagram :
-  • https://instagram.com/fg98._
+  • https://instagram.com/jhoel_jy
 ▢ WhatsApp : 
-  • wa.me/
+  • wa.me/51957947127
 ▢ Telegram : 
   • t.me/fgsupp_bot 
   • t.me/fg98ff (canal)
@@ -585,8 +585,8 @@ case 'developer':
 ▢ Versi Wa : ${Fg.user.phone.wa_version}
 
 *≡ OWNER*
-▢ Instagram : https://www.instagram.com/fg98._
-▢ WhatsApp : wa.me/
+▢ Instagram : https://www.instagram.com/jhoel_jy
+▢ WhatsApp : wa.me/51957947127
 
 *≡ SCRIPT*
 ▢ Git : ${package.homepage} 
