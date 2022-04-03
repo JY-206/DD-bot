@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FG98F/dylux-bot.git"
+    "url": "git+https://github.com/JY-206/DD-bot.git"
   },
   "dependencies": {
     "@adiwajshing/baileys": "^3.5.3",
