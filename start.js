@@ -10,7 +10,7 @@ CFonts.say('FG98', {
   align: 'center',
   gradient: ['red', 'magenta']
 })
-CFonts.say(`dylux-bot By FG98 Ig : @fg98._`, {
+CFonts.say(`dylux-bot By JY Ig : @jhoel_jy`, {
   font: 'console',
   align: 'center',
   colors: ['yellow']
