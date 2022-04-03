@@ -373,13 +373,14 @@ Fg.on('CB:action,,battery', json => {
       console.log(" Mensaje :", color(budy, "orange"), "MessageType :", bgcolor(type, "orange"));
     }
     
-/**
-// Anti spam que se suma al spam :v
+
+// Anti spam que se suma al spam :v//
+
     if (isCmd && msgFilter.isFiltered(from)) {
          return m.reply('⚠️ Espera 2 segundos antes de usar otro comando')
 					}
     if (isCmd && !isOwner && !isBot) msgFilter.addFilter(from)
-*/
+
 
  let infoMSG = JSON.parse(fs.readFileSync('./database/msg.data.json'))
     infoMSG.push(JSON.parse(JSON.stringify(mek)))
@@ -391,8 +392,9 @@ Fg.on('CB:action,,battery', json => {
     }
 
 
-// auto respon
-/*Dbot = ['@'+Fg.user.jid.split('@')[0]]
+// auto respon//
+
+Dbot = ['@'+Fg.user.jid.split('@')[0]]
 for ( var L of Dbot){
   if(!mek.isBaileys && budy.match(L)){
    capt = 'Hola @'+sender.split('@')[0]+' Aquí estoy necesitas ayuda? '
@@ -402,7 +404,7 @@ for ( var L of Dbot){
           },
         });
   }
-}*/
+}
 
 if (budy) addUser(sender); 
 if (isGroup && budy) addGroup(from); 
@@ -1673,7 +1675,7 @@ Fg.groupSettingChange(from, GroupSettingChange.messageSend, true)
     }
     break 
     
-    /*case 'voicecommand':
+    case 'voicecommand':
     case 'voicecmd':
     if(!isPremium && !isOwner) return m.reply(msg.premium)
    // if(isGroup) return m.reply(msg.private)
@@ -1689,7 +1691,7 @@ Fg.groupSettingChange(from, GroupSettingChange.messageSend, true)
     } else {
       m.reply(msg.OnorOff)
     }
-    break*/
+    break
     
 
   case 'q': 
