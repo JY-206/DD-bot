@@ -1716,7 +1716,7 @@ Fg.groupSettingChange(from, GroupSettingChange.messageSend, true)
    try {
 	      ppimg = await Fg.getProfilePicture(who);
 	    } catch {
-	      ppimg = 'https://i.ibb.co/PZNv21q/Profile-FG98.jpg';
+	      ppimg = 'https://i.ibb.co/BG2gsVT/profile-photo.png';
 	    }
 	 Prema = cekPremium(who) ? 'Si' : 'No'
    perfil = ` ┌───「 *${msg.pfile}* 」
@@ -1738,7 +1738,7 @@ Fg.sendMessage(from, prof, image, { thumbnail: fakethumb, quoted: mek, caption: 
    try {
 	      ppimg = await Fg.getProfilePicture(from);
 	    } catch {
-	      ppimg = 'https://i.ibb.co/PZNv21q/Profile-FG98.jpg';
+	      ppimg = 'https://i.ibb.co/BG2gsVT/profile-photo.png';
 	    }
    isAntilink = isAntilink ? 'Si' : 'No' 
    isAntidelete = isAntidelete ? 'Si' : 'No' 
@@ -2018,7 +2018,7 @@ case 'delwelcome':
    try {
 	      ppimg = await Fg.getProfilePicture(who);
 	    } catch {
-	      ppimg = 'https://i.ibb.co/PZNv21q/Profile-FG98.jpg';
+	      ppimg = 'https://i.ibb.co/BG2gsVT/profile-photo.png';
 	    }
 	welm = await getBuffer(ppimg)
    if(value.toLowerCase() === 'welcome') {
