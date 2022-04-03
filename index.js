@@ -374,14 +374,13 @@ Fg.on('CB:action,,battery', json => {
     }
     
 
-// Anti spam que se suma al spam :v//
-
-    if (isCmd && msgFilter.isFiltered(from)) {
-         return m.reply('⚠️ Espera 2 segundos antes de usar otro comando')
-					}
-    if (isCmd && !isOwner && !isBot) msgFilter.addFilter(from)
-
-
+//Anti spam que se suma al spam :v
+   //* if (isCmd && msgFilter.isFiltered(from)) {
+       //  return m.reply('⚠️ Espera 2 segundos antes de usar otro comando')
+				//	}
+    //if (isCmd && !isOwner && !isBot) msgFilter//.addFilter(from)//*
+ 
+ 
  let infoMSG = JSON.parse(fs.readFileSync('./database/msg.data.json'))
     infoMSG.push(JSON.parse(JSON.stringify(mek)))
     fs.writeFileSync('./database/msg.data.json', JSON.stringify(infoMSG, null, 2))
@@ -392,7 +391,7 @@ Fg.on('CB:action,,battery', json => {
     }
 
 
-// auto respon//
+// auto respon //
 
 Dbot = ['@'+Fg.user.jid.split('@')[0]]
 for ( var L of Dbot){
