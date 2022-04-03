@@ -469,7 +469,7 @@ ${menu(prefix)}
     Fg.send3ButtonLoc(from, thumbfg, capt, `▢ *DyLux  ┃ ᴮᴼᵀ*\n▢ *Total Hits* : ${isTotalcmd}\n▢ *Usuarios* : ${User.length}\n▢ *Runtime* : ${kyun(process.uptime())}\n\n${msg.foll}`,  '✆ Owner', `${prefix}owner`, '⏍ Info', `${prefix}info`, `⌬ ${msg.gp}s`, `${prefix}grupos`)
     break
     
-   *case 'menuvc': 
+   case 'menuvc': 
  case 'helpvc':
     capt = `────  *DyLux  ┃ ᴮᴼᵀ*  ────
     
