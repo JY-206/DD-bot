@@ -28,6 +28,7 @@ const gls = require('google-it');
 const FormData = require('form-data');
 const axios = require("axios");
 //-- library
+const { jadibot, stopjadibot, listjadibot } = require("./lib/jadibot");
 const simple = require('./whatsapp/connecting');
 const { fetchJson, fakeText, getBuffer } = require('./library/fetcher');
 const { color, bgcolor } = require('./library/color');
