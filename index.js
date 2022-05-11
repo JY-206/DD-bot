@@ -1678,7 +1678,7 @@ Fg.groupSettingChange(from, GroupSettingChange.messageSend, true)
     
     case 'voicecommand':
     case 'voicecmd':
-    if(!isPremium && !isOwner) return m.reply(msg.premium)
+    if(!isPremium  && !isBot && !isOwner) return m.reply(msg.premium)
    // if(isGroup) return m.reply(msg.private)
     if(!value) return m.reply(msg.OnorOff)
     if (value.toLowerCase() === "on") {
