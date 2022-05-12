@@ -1781,7 +1781,7 @@ case 'voting':
 case 'votacion':
    if(!isGroup) return m.reply(msg.group)
    if(!isBot) return m.reply(msg.group)
-   if(!isAdmins) return m.reply(msg.admin)
+   //if(!isAdmins) return m.reply(msg.admin)//
    if(!value) return m.reply(msg.notext)
    Fg.vote = Fg.vote ? Fg.vote : {}
     if (from in Fg.vote) {
